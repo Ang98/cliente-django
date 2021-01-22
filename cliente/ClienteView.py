@@ -55,7 +55,7 @@ class Estadisticas(GenericAPIView):
         desviacion = (suma_d/(divisor_d-1))**0.5
 
         data={
-            'desviacion_estander':desviacion,
+            'desviacion_estandar':desviacion,
             'promedio':promedio
         }
 
